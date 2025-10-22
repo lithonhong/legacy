@@ -1,0 +1,29 @@
+/* fonts, credit to https://www.dafont.com/silkscreen.font */
+@font-face {
+  font-family: pinscher;
+  src: url(sh-pinscher/sh-pinscher.otf);
+}
+
+body {
+  background-color: #222222;
+  font-family: pinscher;
+  color: #dddddd;
+  font-size: 25px;
+}
+
+#title {
+  color: #e9d282;
+  font-size: 50px;
+  text-align: center
+}
+
+#score {
+  font-size: 40px;
+  text-align: center;
+}
+
+#display {
+  font-size: 80px;
+  padding: 50px;
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+Aim: To study the process of oxidation.
+
+Problem statement: Does sodium chloride prevent the oxidation of malus pumila?
+
+Hypothesis: Sodium chloride prevent the oxidation of malus pumila.
+
+Variables:
+Constant variables: Presence of oxygen, exposed surface area of malus pumila and 
+Manipulated variable: Presence of sodium chloride
+Responding variable: Colour of malus pumila
+
+Steps:
+1. A malus pumila is cut into eight equal slices.
+2. 12 grams of sodium chloride is added to 500 ml of dihydrogen monoxide.
+3. Four slices of malus pumila are added into the solution.
+4. The other four slices of malus pumila is left on a watch glass.
+5. The malus pumila is left for 30 minutes.
+6. The malus pumila is observed.
+7. The observations are recorded.
+
+Observation:
+= Why don't you carry it out yourself? =
+
+Conclusion: Sodium chloride can prevent the oxidation of malus pumila.

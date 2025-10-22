@@ -1,0 +1,1 @@
+alert("Don't scam me, stranger.")

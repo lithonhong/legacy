@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width">  
+    	<title>Reminder | Byron_Inc</title>
+    	<link href="/tools/random/random.css" rel="stylesheet" type="text/css" />
+    	<link rel="shortcut icon" type="image/png" href="https://cdn.discordapp.com/attachments/765041144131878912/837168401885036544/unknown.png"/>
+		<script>
+		var x = new Audio("https://byroninc.repl.co/assets/bell.wav")
+		var y
+		function remind() {
+			var interval = document.getElementById("interval").value;
+			y = setInterval(x.play(), interval * 1000)
+		}
+
+		</script>
+  	</head>
+  	<nav>
+    	<img src="https://cdn.discordapp.com/attachments/765041144131878912/837168401885036544/unknown.png" alt="Byron">
+    	<a href="/index.html">Home</a>
+    	<a href="/about">About</a>
+    	<a href="/contact">Contact</a>
+    	<a href="/more">More</a>
+  	</nav>
+  	<body>
+    	<h1 class="title">Reminder</h1>
+    	<p class="subtitle">Ding dong-</p>
+    	<hr>
+		<form>
+			<input id="interval" name="interval" value="60" placeholder="Interval between reminders (in seconds)">
+			<br><br>
+			<button type="button" onclick = "remind()">Start!</button>
+			<button type="button" onclick="clearInterval(y)">Stop!</button>
+		</form>
+  </body>
+</html>

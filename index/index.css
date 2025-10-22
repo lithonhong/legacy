@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(240, 240, 240);
+  line-height: 1;
+  margin-left: 10;
+  margin-right: 10;
+  margin-top: 30;
+}
+
+.title {
+  color: navy;
+  font-size: 20pt;
+  font-family: arial;
+}
+
+p {
+  color: rgb(16, 16, 16);
+  font-size: 14pt;
+  font-family: Cambria;
+}
+
+.subtitle {
+  color: grey;
+  font-size: 12pt;
+  font-family: Helvetica;
+  line-height: .6
+}
+
+.ps {
+  color: grey;
+  font-size: 10pt;
+  font-family: cambria;
+  line-height: 0.8
+}
+
+.warn {
+  color: crimson;
+}
+
+a {
+  color: rgb(100, 100, 255);
+}
+
+.list {
+  font-family: 'Trebuchet MS';
+  font-size: 17pt;
+  color: darkorange;
+  text-decoration: none;
+}
+
+.center {
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto
+}
+
+nav {
+  background-color: rgb(0, 150, 0);
+  overflow: hidden;
+}
+
+nav img {
+  float: left;
+  width: 40px;
+  padding: 2px 15px;
+}
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Arial";
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+nav a.active {
+  background-color: orange;
+  color: white;
+}
+
+.video {
+  float: center;
+}
+
+.billboard {
+  background-color: rgb(216, 179, 98);
+  border-color: rgb(235, 200, 134);
+  border-style: solid;
+  border-width: 30px;
+  padding: 50px 50px 50px 50px;
+  width: 600px;
+  float: center;
+}
+
+.billboard p.paper {
+  background-color: rgb(250, 250, 250);
+  padding: 30px 25px 30px 25px;
+  color: rgb(16, 16, 16);
+  font-size: 14pt;
+  font-family: 'Segoe Print';
+}
+
+button { 
+    border-width: 0px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: darkcyan;
+    background-color: darkkhaki;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(148, 144, 85);
+    color: rgb(0, 200, 200)
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width">  
+    	<title>Progress Bar | Byron_Inc</title>
+    	<link href="/tools/random/random.css" rel="stylesheet" type="text/css" />
+    	<link rel="shortcut icon" type="image/png" href="https://cdn.discordapp.com/attachments/765041144131878912/837168401885036544/unknown.png"/>
+		<script>
+		function generate() {
+			var txt = document.getElementById("text").value;
+			var rep = document.getElementById("to_replace").value;
+			var into = document.getElementById("into").value;
+			var e = new RegExp(rep, "g");    
+			var res = txt.replace(e, into);
+			document.getElementById("result").innerHTML = res;
+		}
+		</script>
+  	</head>
+  	<nav>
+    	<img src="https://cdn.discordapp.com/attachments/765041144131878912/837168401885036544/unknown.png" alt="Byron">
+    	<a href="/index.html">Home</a>
+    	<a href="/about">About</a>
+    	<a href="/contact">Contact</a>
+    	<a href="/more">More</a>
+  	</nav>
+  	<body>
+    	<h1 class="title">Replacer</h1>
+    	<p class="subtitle">Yo here's a text replacing machine</p>
+    	<hr>
+		<form>
+			<label for="text">Text:</label>
+			<br><br>
+			<textarea id="text" name="text" rows="10" cols="75"></textarea>
+			<br><br>
+			<label for="to_replace">Replace:</label>
+			<br><br>
+			<textarea id="to_replace" name="to_replace" rows="1" cols="75"></textarea>
+			<br><br>
+			<label for="into">Into:</label>
+			<br><br>
+			<textarea id="into" name="into" rows="1" cols="75"></textarea>
+			<br><br>
+			<button type = "button" onclick = "replace()">Replace!</button>
+			<br><br>
+			<textarea id="result" name="result" rows="10" cols="75"></textarea>
+			
+		</form>
+  </body>
+</html>

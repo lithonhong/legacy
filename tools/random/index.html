@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width">  
+    	<title>Random Generator | Byron_Inc</title>
+    	<link href="/tools/random/random.css" rel="stylesheet" type="text/css" />
+    	<link rel="shortcut icon" type="image/png" href="https://cdn.discordapp.com/attachments/765041144131878912/837168401885036544/unknown.png"/>
+		<script>
+		function generate() {
+			var gen = document.getElementById("rand").value;
+			var parse = gen.split("\n");
+			var result = parse[Math.floor(Math.random()*parse.length)];
+			document.getElementById("values").innerHTML = result;
+		}
+		</script>
+  	</head>
+  	<nav>
+    	<img src="https://cdn.discordapp.com/attachments/765041144131878912/837168401885036544/unknown.png" alt="Byron">
+    	<a href="/index.html">Home</a>
+    	<a href="/about">About</a>
+    	<a href="/contact">Contact</a>
+    	<a href="/more">More</a>
+  	</nav>
+  	<body>
+    	<h1 class="title">Random Generator</h1>
+    	<p class="subtitle">Want to generate random stuff?</p>
+    	<hr>
+		<form>
+			<label for="rand">Place your inputs here!</label>
+			<br><br>
+			<textarea id="rand" name="rand" rows="7" cols="50"></textarea>
+			<br><br>
+			<button type = "button" onclick = "generate()">Generate!</button>
+			<p id="values"></p>
+			
+		</form>
+  </body>
+</html>
