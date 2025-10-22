@@ -117,3 +117,14 @@ nav a.active {
 .blog p {
   font-family: Tahoma;
 }
+
+#warning {
+  background-color: rgb(125,15,15);
+  color: #ddd;
+  margin: 10%;
+  padding: 48px
+}
+
+#warning p {
+  color: #ddd
+}
