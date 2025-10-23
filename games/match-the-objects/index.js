@@ -15,7 +15,7 @@ function timer() {
 }
 
 function generate_bg(no) {
-    return "url(assets/matchobjects.svg) " + ((no%3) * -128) + "px " + Math.floor(no / 3) * -128 + "px";
+    return "url(/legacy/assets/matchobjects.svg) " + ((no%3) * -128) + "px " + Math.floor(no / 3) * -128 + "px";
 }
 
 function refresh() {
