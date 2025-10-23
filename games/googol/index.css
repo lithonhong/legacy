@@ -92,12 +92,12 @@ nav a.active {
 }
 
 .close {
-    background: url(/assets/back.svg);
+    background: url(/legacy/assets/back.svg);
     background-repeat: no-repeat;
 }
 
 .open {
-    background: url(/assets/front.svg);
+    background: url(/legacy/assets/front.svg);
     background-repeat: no-repeat;
 }
 
