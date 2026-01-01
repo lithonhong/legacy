@@ -24,7 +24,7 @@ The website should not contain any dead links to the old Replit site; please don
   * Rickroll
 * Posts
 * Riddles (abandoned)
-* TBG tools (for the [Text-Based Games forum](tbgforums.com), which I used to be very active in)
+* TBG tools (for the [Text-Based Games forum](https://tbgforums.com/forums), which I used to be very active in)
 * Testing
 * Tools
   * Progress (contents same as `reminder`, never got around to actually make the page)
